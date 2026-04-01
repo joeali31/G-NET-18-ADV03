@@ -176,6 +176,35 @@
             //}
             #endregion
 
+            #region Exercise06
+            //Stack<string> history = new();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+            //Console.WriteLine(history.Peek());
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    if (history.Count > 0)
+            //    {
+            //        Console.WriteLine($"Leaving: {history.Pop()}");
+            //    }
+            //}
+
+            //Console.WriteLine(history.Peek());
+
+            //if (history.TryPop(out string result))
+            //{
+            //    Console.WriteLine($"Popped: {result}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Stack is empty, nothing to pop.");
+            //}
+            #endregion
         }
     }
 }
