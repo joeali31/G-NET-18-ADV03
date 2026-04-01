@@ -76,6 +76,44 @@
             //}
             #endregion
 
+            #region Exercise03
+            //// Create a Collection  with 4 contacts
+            //Dictionary<string, string> phoneBook = new()
+            //{
+            //    {"Ahmed", "01012345678"},
+            //    {"Sara", "01198765432"},
+            //    {"Ali", "01255555555"},
+            //    {"Mona", "01544444444"}
+            //};
+
+            ////Add a new contact using [] syntax
+            //phoneBook["Omar"] = "01287566947";
+
+            //// Try adding a duplicate using .Add()
+            //try
+            //{
+            //    phoneBook.Add("Mona" , "01287566974");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //// Try adding a duplicate using .TryAdd() 
+            //Console.WriteLine($"TryAdd succeeded: {phoneBook.TryAdd("Mona", "01287566974")}");
+
+            //// Search for a contact that doesn’t exist
+            //Console.WriteLine($"Does exist? {phoneBook.ContainsKey("Ali")}");
+
+            //// Get a contact with a fallback of "Not Found"
+            //string res = phoneBook.ContainsKey("Ali") ? phoneBook["Ali"] : "Not found";
+            //Console.WriteLine($"Ali's number: {res}");
+
+            //// Print all Keys on one line, then all Values on another line
+            //Console.WriteLine(string.Join(", " , phoneBook.Keys));
+            //Console.WriteLine(string.Join(", ", phoneBook.Values));
+            #endregion
+
         }
     }
 }
