@@ -114,6 +114,40 @@
             //Console.WriteLine(string.Join(", ", phoneBook.Values));
             #endregion
 
+            #region Exercise04
+            //// Create a HashSet<string> with a case-insensitive comparer:
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            //// Add these emails:
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+            //// Print Count
+            //Console.WriteLine($"Count: {emails.Count}");
+
+            //// Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
+            //HashSet<int> setA = new() { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new() { 4, 5, 6, 7, 8 };
+
+            //HashSet<int> union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine($"Union With: {string.Join(", " , union)}");
+
+            //HashSet<int> intersection = new HashSet<int>(setA);
+            //intersection.IntersectWith(setB);
+            //Console.WriteLine($"Union With: {string.Join(", ", intersection)}");
+
+            //HashSet<int> except = new HashSet<int>(setA);
+            //intersection.ExceptWith(setB);
+            //Console.WriteLine($"Union With: {string.Join(", ", except)}");
+
+            //HashSet<int> subset = new HashSet<int> { 1, 2};
+            //bool isSubset = subset.IsSubsetOf(setA);
+            //Console.WriteLine(isSubset);
+            #endregion
+
         }
     }
 }
