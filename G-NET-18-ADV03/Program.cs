@@ -41,7 +41,40 @@
             //}
             #endregion
 
+            #region Exercise02
+            //SortedList<int, string> leaderboard = new()
+            //{
+            //    [500] = "Ahmed",
+            //    [200] = "Sara",
+            //    [800] = "Ali",
+            //    [350] = "Mona",
+            //};
 
+            //foreach (var item in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {item.Key}, Player: {item.Value}");
+            //}
+
+            //Console.WriteLine($"First key: {leaderboard.First().Key} , First value: {leaderboard.First().Value}");
+
+            //Console.WriteLine(leaderboard.ContainsKey(5000));
+
+            //if (leaderboard.TryGetValue(999 , out string player999))
+            //{
+            //    Console.WriteLine($"Player with score 999: {player999}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Score 999 not found.");
+            //}
+
+            //leaderboard.Remove(200);
+            //Console.WriteLine("\nUpdated Leaderboard:");
+            //foreach (var item in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {item.Key}, Player: {item.Value}");
+            //}
+            #endregion
 
         }
     }
