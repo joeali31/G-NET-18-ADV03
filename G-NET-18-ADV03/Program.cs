@@ -148,6 +148,34 @@
             //Console.WriteLine(isSubset);
             #endregion
 
+            #region Exercise05
+            //Queue<string> printQueue = new();
+            //printQueue.Enqueue("Report.pdf");
+            //printQueue.Enqueue("Invoice.pdf");
+            //printQueue.Enqueue("Letter.docx");
+            //printQueue.Enqueue("Resume.pdf");
+            //printQueue.Enqueue("Photo.jpg");
+
+            //Console.WriteLine(string.Join(", " , printQueue));
+            //Console.WriteLine($"Count: {printQueue.Count}");
+
+            //Console.WriteLine(printQueue.Peek());
+
+            //while (printQueue.Count > 0)
+            //{
+            //    Console.WriteLine($"Printing: {printQueue.Dequeue()}");
+            //}
+
+            //if (printQueue.TryDequeue(out string result))
+            //{
+            //    Console.WriteLine($"Dequeued: {result}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Queue is empty, nothing to dequeue.");
+            //}
+            #endregion
+
         }
     }
 }
